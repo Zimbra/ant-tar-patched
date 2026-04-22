@@ -69,7 +69,7 @@ references:
             at: ..
 
          - run:
-            name: Publishing ant-tar jar using...
+            name: Publishing ant-tar jar...
             command: |
                set -e
                sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y curl
